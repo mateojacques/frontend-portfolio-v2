@@ -29,7 +29,7 @@ const Contact = ({ nextPage, homePage, prevPage }) => {
 
         <p className='text-center'>
           Feel free to reach out to me using the links at the bottom of the{' '}
-          <a href='#' onClick={homePage} className='text-danger'>
+          <a onClick={homePage} className='text-danger'>
             homepage
           </a>
           ... or try out this form that I've built.

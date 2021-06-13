@@ -14,7 +14,6 @@ const Index = ({ number, nextPage, goToPage, prevPage }) => {
 
       <div className='index__items d-flex flex-column'>
         <a
-          href='#'
           onClick={nextPage}
           className='index__item py-2 px-3 mb-5 bg-light d-inline-block'
         >
@@ -23,7 +22,6 @@ const Index = ({ number, nextPage, goToPage, prevPage }) => {
         </a>
 
         <a
-          href='#'
           onClick={() => {
             goToPage(4)
           }}
@@ -34,7 +32,6 @@ const Index = ({ number, nextPage, goToPage, prevPage }) => {
         </a>
 
         <a
-          href='#'
           onClick={() => {
             goToPage(5)
           }}
@@ -45,7 +42,6 @@ const Index = ({ number, nextPage, goToPage, prevPage }) => {
         </a>
 
         <a
-          href='#'
           onClick={() => {
             goToPage(6)
           }}

@@ -15,10 +15,11 @@ const Works = ({ nextPage, prevPage }) => {
         <div id='row1' className='row w-100 mb-3 mx-0'>
           <div className='col'>
             <a
-              href='#'
+              href='https://github.com/mateojacques/frontend-portfolio-v2'
               className='work__item w-100 p-3 border border-light d-flex justify-content-center align-items-center'
               style={{ backgroundColor: '#000' }}
               target='_blank'
+              rel='noreferrer'
             >
               <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 147 146'>
                 <g id='portfolio' transform='translate(-0.5 0)'>
@@ -39,7 +40,10 @@ const Works = ({ nextPage, prevPage }) => {
               </svg>
             </a>
 
-            <a href='#' className='work__item--name'>
+            <a
+              href='https://github.com/mateojacques/frontend-portfolio-v2'
+              className='work__item--name'
+            >
               <h1>PORTFOLIO</h1>
             </a>
           </div>
@@ -51,6 +55,7 @@ const Works = ({ nextPage, prevPage }) => {
               className='work__item w-100 p-3 border border-light d-flex justify-content-center align-items-center'
               style={{ backgroundColor: '#ED145B' }}
               target='_blank'
+              rel='noreferrer'
             >
               <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 123 124'>
                 <g id='airhitect' transform='translate(0 124)'>
@@ -64,7 +69,10 @@ const Works = ({ nextPage, prevPage }) => {
               </svg>
             </a>
 
-            <a href='#' className='work__item--name'>
+            <a
+              href='https://github.com/mateojacques/airhitect-landing-page'
+              className='work__item--name'
+            >
               <h1 className='h3'>AIRhitect</h1>
             </a>
           </div>
@@ -74,6 +82,7 @@ const Works = ({ nextPage, prevPage }) => {
               className='work__item w-100 p-3 border border-light d-flex justify-content-center align-items-center'
               style={{ backgroundColor: '#90DCEF' }}
               target='_blank'
+              rel='noreferrer'
             >
               <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 83.1 78.574'>
                 <g id='gayo' transform='translate(0.54 0.545)'>
@@ -136,7 +145,10 @@ const Works = ({ nextPage, prevPage }) => {
               </svg>
             </a>
 
-            <a href='#' className='work__item--name'>
+            <a
+              href='https://github.com/mateojacques/gayo-football-app'
+              className='work__item--name'
+            >
               <h1 className='h3'>GAYO APP</h1>
             </a>
           </div>
@@ -148,6 +160,7 @@ const Works = ({ nextPage, prevPage }) => {
               className='work__item w-100 p-3 border border-light d-flex justify-content-center align-items-center'
               style={{ backgroundColor: '#fff' }}
               target='_blank'
+              rel='noreferrer'
             >
               <svg
                 viewBox='0 0 96 169'
@@ -231,7 +244,10 @@ const Works = ({ nextPage, prevPage }) => {
               </svg>
             </a>
 
-            <a href='#' className='work__item--name'>
+            <a
+              href='https://github.com/mateojacques/shia-just-do-it'
+              className='work__item--name'
+            >
               <h1>SHIA JUST DO IT</h1>
             </a>
           </div>
@@ -243,6 +259,7 @@ const Works = ({ nextPage, prevPage }) => {
               className='work__item w-100 p-3 border border-light d-flex justify-content-center align-items-center'
               style={{ backgroundColor: '#F3CF7A' }}
               target='_blank'
+              rel='noreferrer'
             >
               <svg
                 xmlns='http://www.w3.org/2000/svg'
@@ -260,7 +277,10 @@ const Works = ({ nextPage, prevPage }) => {
               </svg>
             </a>
 
-            <a href='#' className='work__item--name'>
+            <a
+              href='https://github.com/mateojacques/mockapp'
+              className='work__item--name'
+            >
               <h1>Mockapp</h1>
             </a>
           </div>

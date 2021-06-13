@@ -55,7 +55,7 @@ const Cover = ({ nextPage }) => {
         <a href='https://github.com/mateojacques'>
           <i className='fab fa-github'></i>
         </a>
-        <a href='#'>
+        <a href='https://www.behance.net/mateojacques'>
           <i className='fab fa-behance'></i>
         </a>
         <a href='https://www.linkedin.com/in/mateoleonjacques/'>
