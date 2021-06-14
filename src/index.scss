@@ -170,6 +170,10 @@ a {
   border-right: 1px solid #777;
 }
 
+.about__item {
+  width: 75%;
+}
+
 .about__item .about__info {
   width: 75%;
   border: 5px solid #fff;
@@ -331,6 +335,11 @@ a {
 #contact-form {
   margin-top: 2rem;
   font-family: 'Cabin', sans-serif;
+
+  input[type='email'],
+  input[type='text'] {
+    width: 75%;
+  }
 
   label {
     color: var(--danger);
@@ -589,13 +598,52 @@ a {
   }
 }
 
-// @media screen and (max-height: 900px) {
-//   #main {
-//     padding-top: 2rem !important;
-//     padding-bottom: 2rem !important;
-//   }
+@media screen and (max-height: 650px) {
+  .about__item {
+    width: 90%;
+  }
 
-//   #book {
-//     min-height: 90vh;
-//   }
-// }
+  .tool {
+    #tool1,
+    #tool2,
+    #tool4,
+    #tool5 {
+      width: 40px;
+      height: 40px;
+    }
+
+    #tool3 {
+      width: 60px;
+      height: 60px;
+    }
+
+    #tool6,
+    #tool7,
+    #tool8 {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  #contact-form {
+    input,
+    textarea {
+      width: 100%;
+    }
+
+    textarea[name='message'] {
+      min-height: 100px !important;
+      max-height: 100px !important;
+    }
+  }
+
+  #back {
+    h3 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+  }
+}

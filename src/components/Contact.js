@@ -37,14 +37,21 @@ const Contact = ({ nextPage, homePage, prevPage }) => {
         </p>
       </div>
 
-      <form name='contact' method='post' id='contact-form' className='pb-3'>
+      <form
+        name='contact'
+        method='post'
+        id='contact-form'
+        className='pb-3'
+        data-netlify='true'
+        data-netlify-honeypot='bot-field'
+      >
         <input type='hidden' name='form-name' value='contact' />
-        <div className='w-75 d-flex flex-column mb-3'>
+        <div className='d-flex flex-column mb-3'>
           <label htmlFor='email'>E-MAIL</label>
           <input type='email' name='email' className='form-control' />
         </div>
 
-        <div className='w-75 d-flex flex-column mb-3'>
+        <div className='d-flex flex-column mb-3'>
           <label htmlFor='subject'>SUBJECT</label>
           <input type='text' name='subject' className='form-control' />
         </div>

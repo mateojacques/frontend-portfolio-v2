@@ -36,10 +36,18 @@ const Back = ({ prevPage, homePage }) => {
       </p>
 
       <div className='back__links w-50 d-flex justify-content-around mt-5'>
-        <a href='https://github.com/mateojacques'>
+        <a
+          href='https://github.com/mateojacques'
+          target='_blank'
+          rel='noreferrer'
+        >
           <i className='fab fa-github fa-2x'></i>
         </a>
-        <a href='https://www.behance.net/mateojacques'>
+        <a
+          href='https://www.behance.net/mateojacques'
+          target='_blank'
+          rel='noreferrer'
+        >
           <i className='fab fa-behance fa-2x'></i>
         </a>
       </div>

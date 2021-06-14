@@ -52,16 +52,32 @@ const Cover = ({ nextPage }) => {
       </div>
 
       <div className='cover__links mx-auto mb-4 d-flex justify-content-around'>
-        <a href='https://github.com/mateojacques'>
+        <a
+          href='https://github.com/mateojacques'
+          target='_blank'
+          rel='noreferrer'
+        >
           <i className='fab fa-github'></i>
         </a>
-        <a href='https://www.behance.net/mateojacques'>
+        <a
+          href='https://www.behance.net/mateojacques'
+          target='_blank'
+          rel='noreferrer'
+        >
           <i className='fab fa-behance'></i>
         </a>
-        <a href='https://www.linkedin.com/in/mateoleonjacques/'>
+        <a
+          href='https://www.linkedin.com/in/mateoleonjacques/'
+          target='_blank'
+          rel='noreferrer'
+        >
           <i className='fab fa-linkedin'></i>
         </a>
-        <a href='mailto:mateojacquesweb@gmail.com'>
+        <a
+          href='mailto:mateojacquesweb@gmail.com'
+          target='_blank'
+          rel='noreferrer'
+        >
           <i className='fas fa-envelope'></i>
         </a>
       </div>

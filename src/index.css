@@ -182,6 +182,10 @@ a {
   border-right: 1px solid #777;
 }
 
+.about__item {
+  width: 75%;
+}
+
 .about__item .about__info {
   width: 75%;
   border: 5px solid #fff;
@@ -348,6 +352,11 @@ a {
 #contact-form {
   margin-top: 2rem;
   font-family: 'Cabin', sans-serif;
+}
+
+#contact-form input[type='email'],
+#contact-form input[type='text'] {
+  width: 75%;
 }
 
 #contact-form label {
@@ -559,6 +568,43 @@ a {
   .tool #tool8 {
     width: 40px;
     height: 40px;
+  }
+}
+
+@media screen and (max-height: 650px) {
+  .about__item {
+    width: 90%;
+  }
+  .tool #tool1,
+  .tool #tool2,
+  .tool #tool4,
+  .tool #tool5 {
+    width: 40px;
+    height: 40px;
+  }
+  .tool #tool3 {
+    width: 60px;
+    height: 60px;
+  }
+  .tool #tool6,
+  .tool #tool7,
+  .tool #tool8 {
+    width: 30px;
+    height: 30px;
+  }
+  #contact-form input,
+  #contact-form textarea {
+    width: 100%;
+  }
+  #contact-form textarea[name='message'] {
+    min-height: 100px !important;
+    max-height: 100px !important;
+  }
+  #back h3 {
+    font-size: 2rem;
+  }
+  #back p {
+    font-size: 1rem;
   }
 }
 /*# sourceMappingURL=index.css.map */

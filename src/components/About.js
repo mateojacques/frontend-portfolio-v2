@@ -11,7 +11,7 @@ const About = ({ prevPage, nextPage }) => {
 
       <p className='text-light h4 ml-5 mt-4'>1</p>
 
-      <article className='about__item w-75 h-100 mx-auto d-flex flex-column align-items-center'>
+      <article className='about__item h-100 mx-auto d-flex flex-column align-items-center'>
         <img src='https://i.imgur.com/FtkYjnl.png' alt='Profile pic' />
         <div className='about__info h-100 text-center px-4  mb-4 d-flex flex-column justify-content-center'>
           <div className='info__title bg-light px-3 py-1'>
