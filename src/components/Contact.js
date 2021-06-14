@@ -37,7 +37,7 @@ const Contact = ({ nextPage, homePage, prevPage }) => {
         </p>
       </div>
 
-      <form netlify id='contact-form' className='pb-3'>
+      <form id='contact-form' className='pb-3' netlify>
         <div className='w-75 d-flex flex-column mb-3'>
           <label htmlFor='email'>E-MAIL</label>
           <input type='email' name='email' className='form-control' />
