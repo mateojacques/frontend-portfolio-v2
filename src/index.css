@@ -416,12 +416,12 @@ a {
   }
   /*WORKS*/
   #row1 svg {
-    width: 80px;
-    height: 80px;
-  }
-  #row2 svg {
     width: 60px;
     height: 60px;
+  }
+  #row2 svg {
+    width: 40px;
+    height: 40px;
   }
   #row3 svg {
     width: 50px;

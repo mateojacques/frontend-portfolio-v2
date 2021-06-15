@@ -406,14 +406,14 @@ a {
   /*WORKS*/
   #row1 {
     svg {
-      width: 80px;
-      height: 80px;
+      width: 60px;
+      height: 60px;
     }
   }
   #row2 {
     svg {
-      width: 60px;
-      height: 60px;
+      width: 40px;
+      height: 40px;
     }
   }
   #row3 {
@@ -492,16 +492,10 @@ a {
 
   .next-arrow--mobile {
     display: inline-block;
-    // position: absolute;
-    // bottom: 40px;
-    // right: 30px;
   }
 
   .prev-arrow--mobile {
     display: inline-block;
-    // position: absolute;
-    // bottom: 50px;
-    // left: 50px;
   }
 
   .arrows--mobile {
